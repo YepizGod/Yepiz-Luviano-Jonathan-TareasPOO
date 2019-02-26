@@ -18,7 +18,7 @@ El encapsulamiento consiste en juntar todos los atributos, metodos y atributos d
 
 ![Sin ecapsulamiento](./Imagenes/Sin_encapsulamiento.jpg)
 
-![Con encapsulamiento](./Imagenes/encapsulamiento.jpg)
+![Con encapsulamiento](./Imagenes/Objetos.jpg)
 
 
 ## Herencia:
