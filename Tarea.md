@@ -9,6 +9,8 @@ La abstaccion es poder visualizar algo fuera del contexto y darle un significado
 Ejemplo: Una pintura, donde el significado esta mas alla de lo que podemos ver.
 Un pensamiento filosofico.
 
+![Sin ecapsulamiento](./Imagenes/cuadro.jpg)
+
 ![Sin ecapsulamiento](./Imagenes/Pensamiento.jpg)
 
 ## ¿Por qué decimos que la Clase es el mecanismo de abstracción de los lenguajes OO? 
