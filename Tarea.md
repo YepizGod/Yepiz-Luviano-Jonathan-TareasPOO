@@ -26,9 +26,6 @@ Es la capacidad que tienen las clases de poder transmitir a otra sus atributos,m
 
 ![](./Imagenes/Herencia.jpg)
 
-![](./Imagenes/Herencia2.jpg)
-
-
 # UML: diagrama de clases.
 Todo comienza en 1994 cuando Rumbaugh se unió a la compañía Rational fundada por Booch. El objetivo de ambos era unificar dos métodos que habían desarrollado: el método Booch y el OMT. 
 El primer borrador apareció en octubre de 1995. En esa misma época Jacobson, se unió a Rational y se incluyeron ideas suyas. Este lenguaje se abrió a la colaboración de otras empresas para que aportaran sus ideas. Todas estas colaboraciones condujeron a la definición de la primera versión de UML. 
@@ -48,4 +45,5 @@ Integrar las mejores prácticas utilizadas hasta el momento.
 ## Escribe una propuesta de una máquina que venda distintos artículos y haz el diagrama de clases del sistema que propones. 
 Mi propuesta es una maquina la cual venda celulares de los dos Sistemas Operativos mas populares que son iOS y Android, donde sea capaz de buscar la opcion mas adecuada a las necesidades que el cliente este buscando, en este caso con respecto al color, S.O, almacenamiento etc..
 
-![](./Imagenes/Diagrama.jpg)
+![Diagrama](./Imagenes/Diagrama.png)
+
