@@ -15,13 +15,17 @@ Porque a la hora de programar nosotros como programadores tenemos la capacidad d
 ## Encapsulamiento:
 El encapsulamiento consiste en juntar todos los atributos, metodos y atributos de una clase en una sola entidad. Es muy importante el encapsulamiento ya que nos ayuda organizar los datos y la integridad entre estos. Y el encapsulamiento nos ayuda para poder evitar el acceso a los datos por un medio no especificado.
 
+
 ![Sin ecapsulamiento](./Imagenes/Sin_encapsulamiento.jpg)
+
 ![Con encapsulamiento](./Imagenes/encapsulamiento.jpg)
 
 
 ## Herencia:
 Es la capacidad que tienen las clases de poder transmitir a otra sus atributos,metodos entre otras cosas evitando que se tengan que volverse a introducir. Una ejemplo de herencia para mi seria una clase Perro donde esta clase tendria todos los atributos y metodos generales de un perro y si despues crearamos una clase perro dalmata en lugar de volver a definir todos esos atributos, con la herencia se lo transmitiriamos y agregariamos los que faltan.
+
 ![](./Imagenes/Herencia.jpg)
+
 ![](./Imagenes/Herencia2.jpg)
 
 
