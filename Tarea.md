@@ -49,4 +49,4 @@ Integrar las mejores prácticas utilizadas hasta el momento.
 Mi propuesta es una maquina la cual venda celulares de los dos Sistemas Operativos mas populares que son iOS y Android, donde sea capaz de buscar la opcion mas adecuada a las necesidades que el cliente este buscando, en este caso con respecto al color, S.O, almacenamiento etc..
 
 
-
+![](./Imagenes/Diagrama.jpg)
