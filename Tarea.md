@@ -15,6 +15,10 @@ Porque a la hora de programar nosotros como programadores tenemos la capacidad d
 ## Encapsulamiento:
 El encapsulamiento consiste en juntar todos los atributos, metodos y atributos de una clase en una sola entidad. Es muy importante el encapsulamiento ya que nos ayuda organizar los datos y la integridad entre estos. Y el encapsulamiento nos ayuda para poder evitar el acceso a los datos por un medio no especificado.
 
+![Sin ecapsulamiento]()
+![Con encapsulamiento]()
+
+
 ## Herencia:
 Es la capacidad que tienen las clases de poder transmitir a otra sus atributos,metodos entre otras cosas evitando que se tengan que volverse a introducir. 
 
