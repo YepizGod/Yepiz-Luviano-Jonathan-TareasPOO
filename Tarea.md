@@ -30,7 +30,8 @@ Es la capacidad que tienen las clases de poder transmitir a otra sus atributos,m
 
 
 # UML: diagrama de clases.
-Todo comienza en 1994 cuando Rumbaugh se unió a la compañía Rational fundada por Booch. El objetivo de ambos era unificar dos métodos que habían desarrollado: el método Booch y el OMT. El primer borrador apareció en octubre de 1995. En esa misma época Jacobson, se unió a Rational y se incluyeron ideas suyas. Este lenguaje se abrió a la colaboración de otras empresas para que aportaran sus ideas. Todas estas colaboraciones condujeron a la definición de la primera versión de UML. 
+Todo comienza en 1994 cuando Rumbaugh se unió a la compañía Rational fundada por Booch. El objetivo de ambos era unificar dos métodos que habían desarrollado: el método Booch y el OMT. 
+El primer borrador apareció en octubre de 1995. En esa misma época Jacobson, se unió a Rational y se incluyeron ideas suyas. Este lenguaje se abrió a la colaboración de otras empresas para que aportaran sus ideas. Todas estas colaboraciones condujeron a la definición de la primera versión de UML. 
 El desarrollo de UML comenzó a finales de 1994 cuando Grady Booch y Jim Rumbaugh de Rational Software Corporation empezaron a unificar sus métodos. A finales de 1995, Ivar Jacob son y su compañía Objectory se incorporaron a Rational en su unificación, aportando el método OOSE.
 Es un lenguaje de modelado visual que se usa para especificar, visualizar, construir y documentar artefactos de un sistema de software. Se usa para entender, diseñar, configurar, mantener y controlar la información sobre los sistemas a construir.
 En 1997 UML 1.1 fue aprobada por la OMG convirtiéndose en la notación estándar de facto para el análisis y el diseño orientado a objetos.
@@ -44,6 +45,8 @@ Fomentar el crecimiento del mercado de las herramientas OO.
 Soportar conceptos de desarrollo de alto nivel como pueden ser colaboraciones, frameworks, patterns, y componentes.
 Integrar las mejores prácticas utilizadas hasta el momento.
 
+## Escribe una propuesta de una máquina que venda distintos artículos y haz el diagrama de clases del sistema que propones. 
+Mi propuesta es una maquina la cual venda celulares de los dos Sistemas Operativos mas populares que son iOS y Android, donde sea capaz de buscar la opcion mas adecuada a las necesidades que el cliente este buscando, en este caso con respecto al color, S.O, almacenamiento etc..
 
 
 
