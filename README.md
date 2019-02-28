@@ -25,3 +25,28 @@ Persona a = new Persona("Pedro");
 Link> https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/new-operator
 
 ## Referencia al objeto actual. 
+
+### Escribe un programa donde utilices this para obtener acceso a miembros con el fin de evitar ambigüedades con nombres similares.
+
+    class Persona
+    
+    {
+        public string nombre
+        
+        public int edad;
+        
+        public Persona(string n, int edad)
+        {
+            this.nombre = n;
+            
+            this.edad = edad;
+            
+        }
+        public void Imprime()
+        
+        {
+        Console.WriteLine("Mi nombre es " + nombre)
+        
+        }
+  ### Escribe un programa donde se utilice this como parámetro.
+  
