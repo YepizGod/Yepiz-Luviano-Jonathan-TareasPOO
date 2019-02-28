@@ -82,7 +82,7 @@ Link: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords
   
   ### Params.
   
-  Es una palabra clave para declarar un metodo que vimos anteriormente, este declaracion solo puede soportar matrices unidimensionales,   ademas que no permite parametros adicionales una vez declarado.
+  Es una palabra clave para declarar un metodo que ya observamos anteriormente, este declaracion solo puede soportar matrices unidimensionales,   ademas que no permite parametros adicionales una vez declarado.
   Para utilizarlo se debe declarar de la siguiente forma dentro del metodo Main.
   
   UseParams();
@@ -96,6 +96,12 @@ Link: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords
  Link: https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/out
  
  ### Ref.
+ 
+ Nos indica que un valor fue pasado por medio de referencia. Para hacer este cambio necesitamos escribir ref para que nos indique que fue intercambiado por referencia, estoy como consecuencia nos da que cualquier cambio que hagamos se vera reflejado en nuestro metodo de llamada. Los valores que el metodo ref trae devuelta son en referencia al autor de la llamada.
+ 
+ Link : https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/ref
+ 
+ 
  
  
 
