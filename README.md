@@ -1,3 +1,4 @@
+# Yepiz Luviano Jonathan
 
 # Unidad 2. Clases y Objetos
 
@@ -101,7 +102,22 @@ Link: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords
  
  Link : https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/ref
  
+ ## Constructores y destructores: declaración, uso y aplicaciones.
  
+ Los constructores tienen el mismo nombre que el de la clase y su principal funcion es inicializar datos. Cuando un constructor no tiene ningun parametro establecido se le conoce como constructor predeterminado. Si una clase no es estatica y no creo un constructor se le asigna uno publico automaticamente.
+ 
+ Ejemplo de un constructor:
+ 
+ public Employee(int annualSalary)
+    {
+        salary = annualSalary;
+    }
+    En cuestion a los tipos struct, quedaria de la siguiente manera:
+    
+    int i = new int();
+Console.WriteLine(i);
+
+    Los constructores pueden llamar a la clase base. Finalmente los constructores pueden ser publicos, privados ,protegidos y estaticos  dependiendo de su uso.
  
  
 
