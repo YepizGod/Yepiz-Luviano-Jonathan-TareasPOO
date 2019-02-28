@@ -28,7 +28,7 @@ Link: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords
 
 ### Escribe un programa donde utilices this para obtener acceso a miembros con el fin de evitar ambigüedades con nombres similares.
 
-
+``` c#
    class Persona
     
     {
@@ -49,9 +49,11 @@ Link: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords
         Console.WriteLine("Mi nombre es " + nombre)
         
         }
+       ```
        
   ### Escribe un programa donde se utilice this como parámetro.
   
+   ```c#
     class Persona{
     
         public string name;
@@ -64,6 +66,7 @@ Link: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords
             Console.WriteLine("Mi nombre es" + this.name ,"y tengo" +this.edad);
         }
     }
+    ```
     
    ## Métodos: declaración, mensajes, paso de parámetros, retorno de valores.
    
