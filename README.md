@@ -28,7 +28,8 @@ Link: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords
 
 ### Escribe un programa donde utilices this para obtener acceso a miembros con el fin de evitar ambigüedades con nombres similares.
 
-    class Persona
+
+   class Persona
     
     {
         public string nombre
@@ -48,7 +49,9 @@ Link: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords
         Console.WriteLine("Mi nombre es " + nombre)
         
         }
+       
   ### Escribe un programa donde se utilice this como parámetro.
+  
     class Persona{
     
         public string name;
@@ -68,9 +71,9 @@ Link: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords
    
    Para declarar una parametro de metodo se utilizan las siguientes palabras:
    params: Especifica que este parámetro puede tomar un número variable de argumentos.
-   in : Especifica que este parámetro se pasa por referencia, pero solo se lee mediante el método llamado.
-   ref: Especifica que este parámetro se pasa por referencia y puede ser leído o escrito por el método llamado.
-   out: Especifica que este parámetro se pasa por referencia y se escribe mediante el método llamado.
+   in : Se puede leer mediante el método llamado.
+   ref: Puede ser leído o escrito por el método llamado.
+   out: Se escribe mediante el método llamado.
   
   Link: https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/method-parameters
   
@@ -88,6 +91,8 @@ Link: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords
  Es un declarador de metodos que nos ayuda a transferir una referencia en lugar de otorgar un valor y en las declaraciones con    parametros de tipo generico este sera covariante.
  
  Link: https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/out
+ 
+ ### Ref.
  
  
 
