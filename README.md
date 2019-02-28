@@ -22,7 +22,7 @@ El operador new sirve para poder crear objetos o invocar instancias. Este operad
 
 Persona a = new Persona("Pedro");
 
-Link> https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/new-operator
+Link: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/new-operator
 
 ## Referencia al objeto actual. 
 
@@ -76,3 +76,18 @@ Link> https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords
   
   ### Params.
   
+  Es una palabra clave para declarar un metodo que vimos anteriormente, este declaracion solo puede soportar matrices unidimensionales,   ademas que no permite parametros adicionales una vez declarado.
+  Para utilizarlo se debe declarar de la siguiente forma dentro del metodo Main.
+  
+  UseParams();
+
+  Link: https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/params
+  
+  ### Out.
+  
+ Es un declarador de metodos que nos ayuda a transferir una referencia en lugar de otorgar un valor y en las declaraciones con    parametros de tipo generico este sera covariante.
+ 
+ Link: https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/out
+ 
+ 
+
