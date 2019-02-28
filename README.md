@@ -120,4 +120,65 @@ Console.WriteLine(i);
     Los constructores pueden llamar a la clase base. Finalmente los constructores pueden ser publicos, privados ,protegidos y estaticos  dependiendo de su uso.
  
  
+## Sobrecarga de operadores: Concepto y utilidad, operadores unarios y binarios.
 
+using System;
+using System.Collections.Generic;
+
+class Dado
+{
+    private string color;
+    private int valor;
+    
+
+    public Dado(string color, int valor)
+       
+    {
+        this.color = color;
+        this.valor = valor;
+        
+    }
+    public void imprime()
+    {
+        Console.WriteLine("{0}-:{1}", color,
+           valor);
+    }
+    public static bool operator <(Dado a, int valor)
+    {
+        return a.valor < valor;
+    }
+    public static bool operator> (Dado a, int valor)
+    {
+        return a.valor > valor;
+    }
+
+    public static bool operator ==(Dado a, int valor)
+    {
+        return a.valor == valor;
+
+    }
+    public static bool operator !=(Dado a, int valor)
+    {
+        return a.valor != valor;
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        List<Dado> dados = new List<Dado>();
+
+        dados.Add(new Dado("Verde", 5));
+        dados.Add(new Dado("Azul", 5));
+        dados.Add(new Dado("Rojo", 2));
+
+        foreach (var d in dados)
+        {
+            if (d == 2)
+                d.imprime();
+        }
+        Console.ReadKey();
+        }
+    }
+    
