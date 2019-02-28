@@ -49,4 +49,30 @@ Link> https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords
         
         }
   ### Escribe un programa donde se utilice this como parámetro.
+    class Persona{
+    
+        public string name;
+        
+        public int edad;
+        
+        public void Imprime()
+        
+        {
+            Console.WriteLine("Mi nombre es" + this.name ,"y tengo" +this.edad);
+        }
+    }
+    
+   ## Métodos: declaración, mensajes, paso de parámetros, retorno de valores.
+   
+   ### Parámetros de métodos.
+   
+   Para declarar una parametro de metodo se utilizan las siguientes palabras:
+   params: Especifica que este parámetro puede tomar un número variable de argumentos.
+   in : Especifica que este parámetro se pasa por referencia, pero solo se lee mediante el método llamado.
+   ref: Especifica que este parámetro se pasa por referencia y puede ser leído o escrito por el método llamado.
+   out: Especifica que este parámetro se pasa por referencia y se escribe mediante el método llamado.
+  
+  Link: https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/method-parameters
+  
+  ### Params.
   
