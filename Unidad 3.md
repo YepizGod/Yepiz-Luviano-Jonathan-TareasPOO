@@ -9,7 +9,11 @@ Clase Derivada: Una clase derivada es aquella que depende totalmente de la clase
 
 ### 2.  Haz un diagrama UML donde se muestre la relación de herencia entre las  clases Figura, Recangulo y Circulo como vimos en clase
 
+
 ### 3. Indica cuales son las clases base y las derivadas
+
+La clase base es la de Figura ya que es la que hereda los atributos y metodos a las otras.
+Mientras que la clase Circulo y rectangulo son las derivadas ya que estan heredando de una clase base.
 
 ### 4. ¿Que es herencia simple y herencia múltiple? ¿En c# se puede hacer herencia múltiple?
 Herencia simple: Este es un tipo de herencia la cual al igual que las demas hereda sus atributos y metodos a una clase derivada, pero esta herencia solo es capaz de heredar a solo una clase derivada y no ha muchas.
