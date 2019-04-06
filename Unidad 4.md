@@ -46,7 +46,60 @@ Antes de redefinir se imprimen los valores de 10, 10.
 virtual
 
 ### 2. Considera el siguiente fragmento de programa:
+```c#
+using System;
+using System.Collections.Generic;
+ public class Musico
+    {
+    public string nombre;
+    public Musico (string n)
+        {
+         nombre = n;
+        }
+   public abstract void Afina(); 
+   public virtual string Display()
+      { 
+       return nombre;
+      }
+   }
+class Bajista; Musico
+  {
+    public string instrumento;
+    public Bajista (string n, string i ) ......
+    .........
+    public _________ Afina()
+      {
+      ________________
+      }
+ }
+class Guitarrista ____________
+     {
+     public instrumento;
+     }
+class Program
+ {
+  public static Main()
+   {
+  Musico musico = new Musico("Django"); (D)
+  Bajista b = new Bajista("Flea");
+  Guitarrista g = new Guitarrista("Santana");
+  List<Musico> musicos = ____________________
+  musicos.Add( b);
+  musicos.Add(g);
+  foreach ( _____in musicos______)___________
+ // (m as IAfina).Afina()
+ Console.ReadKey();
+ }
+}
+```
+#### 2.2. Hay un error en uno de los puntos (A)(B)(C)(D). ¿Cuál es y por qué? 
+El C, ya que en esa linea de codigo falta el virtual antes del string
 
+#### 2.3. ¿Qué método se debe implementar obligatoriamente en ambas clases y por qué?
+El metodo afina, ya que por ser abstracto si no lo incluimos nos marcara siempre un error
 
+#### 2.4. ¿Por qué no se ponen las llaves en (B)?, ¿Cuando si se pondrían?
+Porque al ser un metodo abstracto este no necesita poseer un cuerpo, las llaves son utilizadas en otros metodos que nos retornen valor o en los void, pero en los abstractos no se deben de incluir.
 
-
+#### 2.5. ¿Qué pasa si el método Afina() lo hacemos virtual en lugar de abstract?
+Para empezar debemos de añadirle un cuerpo a nuestro metodo ya que en uno abstracto no los tenemos, despues tendriamos que utilizar el override para que este pudiera funcionar en las otras clases.
