@@ -24,7 +24,7 @@ C# y la herencia multiple: Como tal no es posible aplicar la herencia multiple, 
 
 ###  5. Escribe el programa de Figura como vimos en clase, donde agregues varios tipos de figuras a una lista y recorre la lista llamando a un metodo de las figuras
 
-#### 5.1 Se sobrecarguen los constructores y se acceda a los constructores de la clase base 
+
 
       
 
