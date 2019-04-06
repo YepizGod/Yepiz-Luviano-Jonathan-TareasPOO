@@ -92,8 +92,70 @@ class Program
  }
 }
 ```
+#### 2.1 Completa el codigo
+```c#
+using System;
+using System.Collections.Generic;
+abstract class Musico
+{
+    public string nombre;
+    public Musico(string n)
+    {
+        nombre = n;
+    }
+    public abstract void Afina();
+    public string Display()
+    {
+        return nombre;
+    }
+}
+class Bajista : Musico
+{
+    public string instrumento;
+    public Bajista(string n, string i) : base(n)
+    {
+        this.instrumento = i;
+    }
+    public override void Afina()
+    {
+        Console.WriteLine("{0} afina el {1}", nombre, instrumento);
+    }
+}
+class Guitarrista : Musico
+{
+    public string instrumento;
+    public Guitarrista(string n, string i) : base(n)
+    {
+        this.instrumento = i;
+    }
+    public override void Afina()
+    {
+        Console.WriteLine("{0} afina el {1}", nombre, instrumento);
+    }
+}
+class Program
+{
+    public static void Main()
+    {
+        //No se puede instanciar una objeto de una clase virtual
+        //Musico m = new Musico("Django"); 
+        Bajista b = new Bajista("Flea", "bajo acústico");
+        Guitarrista g = new Guitarrista("Santana", "guitarra Yamaha");
+        List<Musico> musicos = new List<Musico>();
+        musicos.Add(b);
+        musicos.Add(g);
+        foreach (Musico musico in musicos)
+        {
+            Console.WriteLine(musico.Afina());
+            musico.Afina();
+        }
+        Console.ReadKey();
+    }
+}
+```
+
 #### 2.2. Hay un error en uno de los puntos (A)(B)(C)(D). ¿Cuál es y por qué? 
-El C, ya que en esa linea de codigo falta el virtual antes del string
+El D, porque no se pueden crear objetos o instancias en esa clase
 
 #### 2.3. ¿Qué método se debe implementar obligatoriamente en ambas clases y por qué?
 El metodo afina, ya que por ser abstracto si no lo incluimos nos marcara siempre un error
