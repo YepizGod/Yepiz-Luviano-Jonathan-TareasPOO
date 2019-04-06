@@ -2,7 +2,7 @@
 # Unidad 4 (Polimorfismo)
 
 
-### 1. Considera el siguiente fragmento de programa:
+#### 1. Considera el siguiente fragmento de programa:
 ```c#
 using System;
 class A
@@ -36,16 +36,16 @@ class B:A
   }
   }
    ```
-### 1. ¿Qué valores imprimen las lineas (1) y (2)? 
+#### 1. ¿Qué valores imprimen las lineas (1) y (2)? 
 Antes de redefinir se imprimen los valores de 10, 10.
 
-### 1.2.  Redefine el método Display en el espacio indicado, una vez redefinido el método, ¿qué valores imprimen las lineas (1) y (2) ?
+#### 1.2.  Redefine el método Display en el espacio indicado, una vez redefinido el método, ¿qué valores imprimen las lineas (1) y (2) ?
 10 y 15
 
-### 1.3. ¿Que palabra debes agregar en la linea (public _______ string Display()) al definir A.Display()?
+#### 1.3. ¿Que palabra debes agregar en la linea (public _______ string Display()) al definir A.Display()?
 virtual
 
-### 2. Considera el siguiente fragmento de programa:
+#### 2. Considera el siguiente fragmento de programa:
 ```c#
 using System;
 using System.Collections.Generic;
