@@ -8,7 +8,7 @@ Clase Base: La clase base es aquella que no depende de ninguna otra base, por lo
 Clase Derivada: Una clase derivada es aquella que depende totalmente de la clase base, esta clase surge en base a la clase base, y posee los atributos y metodos de esa clase, aunque las clases derivadas son capaces de incluir algunos mas.
 
 ### 2.  Haz un diagrama UML donde se muestre la relación de herencia entre las  clases Figura, Recangulo y Circulo como vimos en clase
-
+![Diagrama](./Imagenes/Figuras.jpg)
 
 ### 3. Indica cuales son las clases base y las derivadas
 
